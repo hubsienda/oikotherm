@@ -5,16 +5,18 @@ import type { Locale } from '@/lib/prices';
 type LanguageSelectorProps = {
   activeLocale: Locale;
   onChange: (locale: Locale) => void;
+  ariaLabel: string;
 };
 
 export default function LanguageSelector({
   activeLocale,
-  onChange
+  onChange,
+  ariaLabel
 }: LanguageSelectorProps) {
   return (
     <div
-      className="inline-flex rounded-full border border-stone-300 bg-white p-1 shadow-sm"
-      aria-label="Language selector"
+      className="inline-flex shrink-0 rounded-full border border-stone-300 bg-white p-1 shadow-sm"
+      aria-label={ariaLabel}
     >
       <button
         type="button"
