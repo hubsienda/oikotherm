@@ -77,7 +77,7 @@ export type CalculatorCopy = {
 
 export const copy: Record<Locale, CalculatorCopy> = {
   es: {
-    appTitle: 'Calculadora ISOBELL España',
+    appTitle: 'Productos ISOBELL',
     appSubtitle:
       'Herramienta profesional para preparar estimaciones de pedido y cálculos por m².',
     languageSelectorLabel: 'Selector de idioma',
@@ -160,7 +160,7 @@ export const copy: Record<Locale, CalculatorCopy> = {
     }
   },
   en: {
-    appTitle: 'ISOBELL Spain Calculator',
+    appTitle: 'ISOBELL Products',
     appSubtitle:
       'Professional tool for preparing order estimates and square-metre calculations.',
     languageSelectorLabel: 'Language selector',
